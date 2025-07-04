@@ -181,27 +181,23 @@ group by ship_mode, Order_Priority
 order by [Total shipping cost] desc
 ```
 If the delivery truck is the most economical but the slowest shipping method and Express Air is the fastest but the most expensive one, did the company appropriately spend shipping costs based on the Order Priority? To determine when a company appropriately spends shipping costs based on order priority, we can categorize the shipping methods according to the urgency of the orders. 
+
 ***Shipping Methods***
 1. Delivery Truck
-•	Cost: Most economical
-•	Speed: Slowest
+- Cost: Most economical
+- Speed: Slowest
 2.	Express Air
-•	Cost: Most expensive
-•	Speed: Fastest
+- Cost: Most expensive
+- Speed: Fastest
+
 ***Order Priorities***
-•	Critical: Requires immediate delivery.
-•	High: Needs prompt delivery but not as urgent as critical.
-•	Medium: Standard delivery timeframe is acceptable.
-•	Low: Can wait for delivery without any rush.
+- Critical: Requires immediate delivery.
+- High: Needs prompt delivery but not as urgent as critical.
+- Medium: Standard delivery timeframe is acceptable.
+- Low: Can wait for delivery without any rush.
+
 ***Appropriate Shipping Costs Based on Order Priority***
-  	
-Order Priority |	Recommended Shipping Method	Justification
-Critical	Express Air	Immediate delivery is essential to meet urgent needs.
-High	Express Air or Delivery Truck	Depending on the specific urgency and availability of budget. Express Air if budget allows; otherwise, Delivery Truck if acceptable.
-Medium	Delivery Truck	Cost-effective option is suitable for standard delivery times.
-Low	Delivery Truck	Most economical choice is appropriate for non-urgent deliveries.
-
-
+  
 | Order Priority  | Recommended Shipping Method |  Justification |
 | ------------- | ------------- | ------------- |
 | Critical	Express  | Air | Immediate delivery is essential to meet urgent needs |
