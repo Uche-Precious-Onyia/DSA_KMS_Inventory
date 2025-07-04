@@ -183,12 +183,12 @@ order by [Total shipping cost] desc
 If the delivery truck is the most economical but the slowest shipping method and Express Air is the fastest but the most expensive one, did the company appropriately spend shipping costs based on the Order Priority? To determine when a company appropriately spends shipping costs based on order priority, we can categorize the shipping methods according to the urgency of the orders. 
 
 ***Shipping Methods***
-1. Delivery Truck
-- Cost: Most economical
-- Speed: Slowest
-2.	Express Air
-- Cost: Most expensive
-- Speed: Fastest
+- Delivery Truck
+  - Cost: Most economical
+  - Speed: Slowest
+- Express Air
+  - Cost: Most expensive
+  - Speed: Fastest
 
 ***Order Priorities***
 - Critical: Requires immediate delivery.
@@ -217,18 +217,18 @@ A look at the results generated below shows that the company is incurring higher
 - The most profitable consumer customer is **Emily Phan** with profit of **34005.440**
 - 
 ### Recommendations
+- Product Category for focus: since technological products have brought the most revenue for KMS in the last three years, then the company is advised to really rein in on improving its production and sale of those products across its different markets.
+- Regional Sales: The top 3 regions in terms of sales are the **West** with **3597549.329**, **Ontario** with **3063212.527** and **Prarie** with **2837304.650** and the bottom 3 regions in terms of sales are **Nunavut** with **116376.486**, **Northwest Territories** with **800847.341**, and **Yukon** with **975867.383. The company is advised to channel most of its focus to making available its products in its biggest markets; the West, Ontario, and Prarie.
+- The most valuable customers typically purchase technological products. And since our analysis has already revealed that technological products have brought KMS the most benefit, then this is another pointer to the fact that the company needs to prioritize the production and sale of its technological products across its different markets.
+- From our results, furniture and office supplies have not sold well mainly to consumers, home offices, and small businesses. Customers in these segments also represent KMS' bottom customers in terms of sales. The company may implement some or all of these strategies:
+  - Conduct Surveys: Gather feedback from these customers to understand their specific needs, preferences, and pain points regarding furniture and office supplies.
+  - Tailored Promotions: Create personalized offers based on their purchase history or preferences. For example, if a customer frequently buys ergonomic chairs, offer discounts on related products.
+  - Create Bundles and seasonal promotions: Offer bundles that combine complementary products (e.g., a desk with an office chair and supplies) at a discounted rate to encourage larger purchases. Introduce seasonal bundles that cater to specific needs, such as back-to-school or home office setups.
+  - Enhanced Customer Support: Offer dedicated support for these segments, ensuring they receive quick responses to inquiries and assistance with product selection.
+  - Leverage social proof using Customer Reviews and Testimonials and case studies: Highlight positive reviews and testimonials from similar customers to build trust and encourage purchases. Share success stories of how other small businesses or home offices have benefited from your products.
 - Shipping Costs:
   - Cost-Effectiveness: Delivery Truck is typically the most economical option. If the company is paying more for delivery trucks than for Express Air, it indicates a misallocation of resources. The expectation is that the least expensive option should be used for lower-priority orders.
-Order Priority Alignment:
-
-  - Critical and High Priority Orders should prioritize speed over cost. If the company is using delivery trucks (which are slower) and incurring higher costs, it contradicts the need for timely delivery for these orders. This suggests a failure to align shipping methods with the urgency of the orders.
-Inefficient Resource Management:
-
-  - Spending more on a slower shipping method indicates poor decision-making. The company should assess shipping needs based on urgency and choose the method that balances cost with delivery speed. Higher costs for delivery trucks suggest inefficiency.
-Customer Satisfaction:
-
-  - If critical orders are delayed due to the use of delivery trucks, it can lead to customer dissatisfaction. Meeting customer expectations is crucial, especially for critical and high-priority orders, which require timely fulfillment.
-Financial Implications:
-
-  - Higher shipping costs for delivery trucks could negatively impact the company's profitability. It is essential to optimize shipping strategies to maintain a healthy bottom line while meeting customer demands.
-Therefore, the company has not appropriately spent shipping costs based on order priority. Here are my reasons:
+  - Order Priority Alignment: Critical and High Priority Orders should prioritize speed over cost. If the company is using delivery trucks (which are slower) and incurring higher costs, it contradicts the need for timely delivery for these orders. This suggests a failure to align shipping methods with the urgency of the orders.
+  - Inefficient Resource Management: Spending more on a slower shipping method indicates poor decision-making. The company should assess shipping needs based on urgency and choose the method that balances cost with delivery speed. Higher costs for delivery trucks suggest inefficiency.
+  - Customer Satisfaction: If critical orders are delayed due to the use of delivery trucks, it can lead to customer dissatisfaction. Meeting customer expectations is crucial, especially for critical and high-priority orders, which require timely fulfillment.
+  - Financial Implications: Higher shipping costs for delivery trucks could negatively impact the company's profitability. It is essential to optimize shipping strategies to maintain a healthy bottom line while meeting customer demands.
