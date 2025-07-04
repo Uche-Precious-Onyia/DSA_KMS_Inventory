@@ -44,7 +44,7 @@ This involves exploring the dataset provided to provide insights. The following 
 ### Findings From the Order Dataset
 - There are repeated product ids for different products shipped to the same customers on the same day. This means that products to be delivered to any customer on the same day are issued the same product id.
 - Some customers are returning customers (i.e., they names appear on our dataset more than once). We want to take note of this when trying to compute things like most valuable customers, top 3 or bottom 3 customers, etc.
-### Data Analysis
+### Data Analysis and Visualization
 This is where I have included the queries I ran and the results arrived at that will inform the insights that will be presented to the management at Kultra Mega stores.
 #### ***1. Product category with the highest sales***
 ```SQL
