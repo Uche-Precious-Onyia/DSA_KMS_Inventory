@@ -180,6 +180,8 @@ where Ship_Mode = 'delivery truck' or Ship_Mode = 'Express air'
 group by ship_mode, Order_Priority
 order by [Total shipping cost] desc
 ```
+![image](https://github.com/user-attachments/assets/a83cc32a-c4be-485f-84e9-8d4f81e4f67e)
+
 ![image](https://github.com/user-attachments/assets/24dd11c6-a85e-4bed-8a30-c315c919bbf1)
 ### Results and Findings
 - The product category with the highest sales is Technology with 5984248.409
