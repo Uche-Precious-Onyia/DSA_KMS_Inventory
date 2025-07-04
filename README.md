@@ -18,7 +18,7 @@ These files contain information on things like **customer name**, **customer seg
 - Excel for data collection
 - Microsoft word (for documenting steps and findings)
 - SQL server (for querying and analysis)
-- Microsoft PowerPoint (for data visualization and presentation of findings)
+- Microsoft PowerPoint(for presentation of findings)
 
 ### Data Cleaning and Preparation
 - Database creation: A new database called KMS_db was first created on my RDBMS, MS SQL Server. 
