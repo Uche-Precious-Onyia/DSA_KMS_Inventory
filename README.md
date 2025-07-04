@@ -94,9 +94,7 @@ The total sales of appliances in **Ontario** is **202346.840**
 
 ![image](https://github.com/user-attachments/assets/a812744b-91b8-4e11-a897-bbfd54d1a99a)
 
-![image](https://github.com/user-attachments/assets/ce9b6b8a-1247-4e1c-8a1a-d07ba7f4ff97)
-
-![image](https://github.com/user-attachments/assets/2045f39d-5df7-4b66-b38c-401cf098a61b)
+![image](https://github.com/user-attachments/assets/41d27cde-51f4-4281-ab9f-a907c3eafb7b)
 #### ***4. Bottom 10 customers***
 ```SQL
 SELECT TOP 10 customer_name, customer_segment, Product_Category, SUM (sales) AS [Total Sales per Customer]
