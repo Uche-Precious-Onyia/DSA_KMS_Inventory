@@ -180,6 +180,37 @@ where Ship_Mode = 'delivery truck' or Ship_Mode = 'Express air'
 group by ship_mode, Order_Priority
 order by [Total shipping cost] desc
 ```
+If the delivery truck is the most economical but the slowest shipping method and Express Air is the fastest but the most expensive one, did the company appropriately spend shipping costs based on the Order Priority? To determine when a company appropriately spends shipping costs based on order priority, we can categorize the shipping methods according to the urgency of the orders. 
+***Shipping Methods***
+1. Delivery Truck
+•	Cost: Most economical
+•	Speed: Slowest
+2.	Express Air
+•	Cost: Most expensive
+•	Speed: Fastest
+***Order Priorities***
+•	Critical: Requires immediate delivery.
+•	High: Needs prompt delivery but not as urgent as critical.
+•	Medium: Standard delivery timeframe is acceptable.
+•	Low: Can wait for delivery without any rush.
+***Appropriate Shipping Costs Based on Order Priority***
+  	
+Order Priority |	Recommended Shipping Method	Justification
+Critical	Express Air	Immediate delivery is essential to meet urgent needs.
+High	Express Air or Delivery Truck	Depending on the specific urgency and availability of budget. Express Air if budget allows; otherwise, Delivery Truck if acceptable.
+Medium	Delivery Truck	Cost-effective option is suitable for standard delivery times.
+Low	Delivery Truck	Most economical choice is appropriate for non-urgent deliveries.
+
+
+| Order Priority  | Recommended Shipping Method |  Justification |
+| ------------- | ------------- | ------------- |
+| Critical	Express  | Air | Immediate delivery is essential to meet urgent needs |
+| High  | Express Air or Delivery Truck	Depending on the specific urgency and availability of budget  | Express Air if budget allows; otherwise, Delivery Truck if acceptable |
+| Medium  | Delivery Truck  | Cost-effective option is suitable for standard delivery times |
+| Low  | Delivery Truck  | Most economical choice is appropriate for non-urgent deliveries |
+
+A look at the results generated below shows that the company incurred more shipping cost using delivery trucks for all kinds of order priorities. From our results, the company is incurring higher shipping costs for delivery trucks over Express Air across all order priorities. This indicates a misalignment with the principles of cost-effectiveness, order priority, and customer satisfaction. 
+
 ![image](https://github.com/user-attachments/assets/a83cc32a-c4be-485f-84e9-8d4f81e4f67e)
 ### Summary of Results and Findings
 - The product category with the highest sales is Technology with 5984248.409
@@ -188,5 +219,20 @@ order by [Total shipping cost] desc
 - The small business customer with the highest sales is **Dennis Kane** with **75967.591**
 - **Roy Skaria** ranks the highest amongst from KMS' corporate customers with **773** orders placed between 2009 and 2012
 - The most profitable consumer customer is **Emily Phan** with profit of **34005.440**
-- Did the company appropriately spend shipping costs based on the Order Priority if the delivery truck is the most economical but the slowest shipping method and Express Air is the fastest but the most expensive one?
+- 
 ### Recommendations
+- Shipping Costs:
+  - Cost-Effectiveness: Delivery Truck is typically the most economical option. If the company is paying more for delivery trucks than for Express Air, it indicates a misallocation of resources. The expectation is that the least expensive option should be used for lower-priority orders.
+Order Priority Alignment:
+
+  - Critical and High Priority Orders should prioritize speed over cost. If the company is using delivery trucks (which are slower) and incurring higher costs, it contradicts the need for timely delivery for these orders. This suggests a failure to align shipping methods with the urgency of the orders.
+Inefficient Resource Management:
+
+  - Spending more on a slower shipping method indicates poor decision-making. The company should assess shipping needs based on urgency and choose the method that balances cost with delivery speed. Higher costs for delivery trucks suggest inefficiency.
+Customer Satisfaction:
+
+  - If critical orders are delayed due to the use of delivery trucks, it can lead to customer dissatisfaction. Meeting customer expectations is crucial, especially for critical and high-priority orders, which require timely fulfillment.
+Financial Implications:
+
+  - Higher shipping costs for delivery trucks could negatively impact the company's profitability. It is essential to optimize shipping strategies to maintain a healthy bottom line while meeting customer demands.
+Therefore, the company has not appropriately spent shipping costs based on order priority. Here are my reasons:
