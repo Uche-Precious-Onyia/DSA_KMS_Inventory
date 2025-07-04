@@ -172,7 +172,7 @@ ON ord.order_id = ods.order_id
 ```
 A total of **872** items were returned
 ![image](https://github.com/user-attachments/assets/f2e4928e-81d5-48a6-8944-8db5fcbc3119)
-#### ***11. Did the company appropriately spend shipping costs based on the Order Priority if the delivery truck is the most economical but the slowest shipping method and Express Air is the fastest but the most expensive one?***
+#### ***11. Shipping costs based on the Order Priority***
 ```SQL
 select  ship_mode, order_priority, sum (shipping_cost) as [Total shipping cost]
 from (select ship_mode, order_priority, shipping_cost from [Order ]) as [Most Profitable Consumer Customer] 
@@ -181,13 +181,12 @@ group by ship_mode, Order_Priority
 order by [Total shipping cost] desc
 ```
 ![image](https://github.com/user-attachments/assets/a83cc32a-c4be-485f-84e9-8d4f81e4f67e)
-
-![image](https://github.com/user-attachments/assets/24dd11c6-a85e-4bed-8a30-c315c919bbf1)
-### Results and Findings
+### Summary of Results and Findings
 - The product category with the highest sales is Technology with 5984248.409
 - The top 3 regions in terms of sales are the **West** with **3597549.329**, **Ontario** with **3063212.527** and **Prarie** with **2837304.650** and the bottom 3 regions in terms of sales are **Nunavut** with **116376.486**, **Northwest Territories** with **800847.341**, and **Yukon** with **975867.383**
 - KMS incurred the most shipping cost of **51971.940** using **Delivery Trucks**
 - The small business customer with the highest sales is **Dennis Kane** with **75967.591**
 - **Roy Skaria** ranks the highest amongst from KMS' corporate customers with **773** orders placed between 2009 and 2012
 - The most profitable consumer customer is **Emily Phan** with profit of **34005.440**
+- Did the company appropriately spend shipping costs based on the Order Priority if the delivery truck is the most economical but the slowest shipping method and Express Air is the fastest but the most expensive one?
 ### Recommendations
